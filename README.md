@@ -1,12 +1,12 @@
-# zapp!! — Space Arcade
+# zapp!! Arcade Space 2D Video Game
 
-A Space Invaders-inspired arcade shooter made with Python and Pygame, with pixel-art sprites, animated explosions, retro sound effects, enemy waves, power-ups, and a mothership boss fight. The game also includes a quiet, original synthesized background-music loop created specifically for this project. It uses no third-party music or samples.
+An arcade shooter 2D video game made with Python and Pygame, with pixel-art sprites, animated explosions, retro sound effects, enemy waves, power-ups, and a mothership boss fight.
 
 ## Features
 
 - Pixel-art-inspired player, enemies, and boss
 - Animated pixel explosions, spark bursts, shock rings, and screen shake
-- Original synthesized looping background music, plus generated retro sound effects
+- looping background music, plus retro sound effects
 - Start menu, pause menu, HUD, and persistent local high score
 - Enemy formations, enemy projectiles, player lives, and temporary triple-shot power-up
 - A mothership boss every fourth wave, with a health bar and three-way projectile attacks
@@ -59,4 +59,4 @@ py main.py
 - `ui.py` — starfield, HUD, boss health bar, and menus
 - `assets/` — sprite PNGs and WAV sound/music assets
 
-The game stores its best score in `highscore.json` in this folder. The background track is generated from scratch for this project and contains no third-party samples.
+The game stores its best score in `highscore.json` in this folder.
