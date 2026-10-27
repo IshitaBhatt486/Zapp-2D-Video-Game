@@ -1,0 +1,31 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+ASSET_DIR = ROOT / "assets"
+SAVE_FILE = ROOT / "highscore.json"
+
+WIDTH = 900
+HEIGHT = 600
+FPS = 60
+TITLE = "zapp!! — Space Arcade"
+
+BG = (8, 10, 27)
+PANEL = (17, 22, 48)
+WHITE = (239, 244, 255)
+MUTED = (140, 155, 190)
+CYAN = (79, 232, 255)
+PURPLE = (158, 103, 255)
+PINK = (255, 83, 151)
+YELLOW = (255, 219, 105)
+RED = (255, 83, 97)
+GREEN = (112, 255, 181)
+
+PLAYER_SPEED = 390
+BULLET_SPEED = 610
+ENEMY_BULLET_SPEED = 270
+PLAYER_FIRE_DELAY = 0.22
+ENEMY_GAP_X = 65
+ENEMY_GAP_Y = 45
+ENEMY_DROP = 22
+PLAYER_LIVES = 3
+BOSS_EVERY_WAVES = 4

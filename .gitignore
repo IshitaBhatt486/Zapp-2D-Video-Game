@@ -1,0 +1,6 @@
+_pycache_/
+*.py[cod]
+
+highscore.json
+
+internal_docs/
